@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskF_TimeIntervals", "Task
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskG_PossibleFriends", "TaskG_PossibleFriends\TaskG_PossibleFriends.csproj", "{6EB9DC91-3D85-4FEF-A412-710C5AB1D5BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskJ_Rhymes", "TaskJ_Rhymes\TaskJ_Rhymes.csproj", "{3D828AAE-4BC9-4395-A7B2-7F7AAC93499C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{6EB9DC91-3D85-4FEF-A412-710C5AB1D5BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EB9DC91-3D85-4FEF-A412-710C5AB1D5BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EB9DC91-3D85-4FEF-A412-710C5AB1D5BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D828AAE-4BC9-4395-A7B2-7F7AAC93499C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D828AAE-4BC9-4395-A7B2-7F7AAC93499C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D828AAE-4BC9-4395-A7B2-7F7AAC93499C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D828AAE-4BC9-4395-A7B2-7F7AAC93499C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
