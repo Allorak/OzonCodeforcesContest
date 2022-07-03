@@ -1,4 +1,8 @@
-﻿var setAmount = int.Parse(Console.ReadLine());
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+
+var setAmount = int.Parse(Console.ReadLine());
 for (var i = 0; i < setAmount; i++)
 {
     var employeeAmount = int.Parse(Console.ReadLine());

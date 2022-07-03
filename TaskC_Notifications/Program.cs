@@ -1,7 +1,12 @@
-﻿var amountOfUsersAndRequests = Console.ReadLine().Split().Select(int.Parse).ToArray();
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+
+var amountOfUsersAndRequests = Console.ReadLine().Split().Select(int.Parse).ToArray();
 var (userAmount, requestAmount) = (amountOfUsersAndRequests[0], amountOfUsersAndRequests[1]);
 var lastMessages = new Dictionary<int,int>();
 var lastMessageNumber = 0;
+var lastGlobalMessageNumber = 0;
 for (var i = 0; i < requestAmount; i++)
 {
     var requestInfo = Console.ReadLine().Split().Select(int.Parse).ToArray();
@@ -25,13 +30,13 @@ void SendMessage(int userId)
         lastMessages[userId] = lastMessageNumber;
         return;
     }
-    for (var i = 0; i < userAmount; i++)
-    {
-        lastMessages[i + 1] = lastMessageNumber;
-    }
+
+    lastGlobalMessageNumber = lastMessageNumber;
 }
 
 int GetLastMessage(int userId)
 {
-    return lastMessages.ContainsKey(userId) ? lastMessages[userId] : 0;
+    return !lastMessages.ContainsKey(userId) 
+        ? lastGlobalMessageNumber 
+        : Math.Max(lastGlobalMessageNumber, lastMessages[userId]);
 }
