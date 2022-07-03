@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskA_FormFiller", "TaskA_FormFiller\TaskA_FormFiller.csproj", "{DF867904-FB62-47A3-873A-F711EB7F181F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskB_PairCoding", "TaskB_PairCoding\TaskB_PairCoding.csproj", "{975DEFCE-EBA0-493A-B0A8-FEB7B646A50B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskC_Notifications", "TaskC_Notifications\TaskC_Notifications.csproj", "{B706BF25-7AF7-4999-A9B2-6858B220CC7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF867904-FB62-47A3-873A-F711EB7F181F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF867904-FB62-47A3-873A-F711EB7F181F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF867904-FB62-47A3-873A-F711EB7F181F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF867904-FB62-47A3-873A-F711EB7F181F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{975DEFCE-EBA0-493A-B0A8-FEB7B646A50B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{975DEFCE-EBA0-493A-B0A8-FEB7B646A50B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{975DEFCE-EBA0-493A-B0A8-FEB7B646A50B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{975DEFCE-EBA0-493A-B0A8-FEB7B646A50B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B706BF25-7AF7-4999-A9B2-6858B220CC7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B706BF25-7AF7-4999-A9B2-6858B220CC7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B706BF25-7AF7-4999-A9B2-6858B220CC7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B706BF25-7AF7-4999-A9B2-6858B220CC7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
